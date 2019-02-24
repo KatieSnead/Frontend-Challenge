@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 375px;
+    max-height: 667px;
+    font-family: "SF Display", sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 375px;
+    height: 116px;
+}
+
+.status {
+    background-color: #F8F8F8;
+}
+
+nav {
+    color: black;
+    height: 70px;
+    background-color: #F8F8F8;
+}
+
+.arrow_left {
+    float: left;
+    width: 30%;
+    padding-left: 15px;
+    color: #007AFF;
+    vertical-align: middle;
+}
+
+.fa-angle-left {
+    padding-right: 5px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.back {
+    font-size: 17px;
+    vertical-align: middle;
+    font-family: "SF Display", sans-serif;
+    font-weight: lighter;
+}
+
+.stop {
+    font-size: 24px;
+    padding-top: 30px;
+    padding-left: 15px;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    font-weight: bold;
+    line-height: 41px;
+}
+
+.container {
+    border-left-color: transparent;
+    border-right-color: transparent;
+    margin-top: 45px;
+    background-color: #F8F8F8;
+    overflow: scroll;
+    max-height: 502px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 10% 55% 30% 5%;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+.eastbound h5,
+.northbound h5,
+.southbound h5,
+.reroute h5,
+.out-of-service h5 {
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 20px 0px 5px 15px;
+    background-color: #EFEFF4;
+}
+
+.bus-number {
+    background-color: mediumseagreen;
+    float: left;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.out-of-service .bus-number, .reroute .bus-number {
+    background-color: orange;
+}
+
+.destination-frequency {
+    padding: 15px;
+    line-height: 120%;
+}
+
+.destination-frequency h3 {
+    font-size: 16px;
+    text-align: left;
+}
+
+.destination-frequency h4 {
+    font-size: 12px;
+    text-align: left;
+    font-style: italic;
+}
+
+.eta {
+    float: right;
+    padding: 10px;
+    font-size: 17px;
+    text-align: right;
+}
+
+.button {
+    background-color: #f0eeee;
+    border: none;
+    color: #a1a1a1;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 49px;
+    width: 187px;
+}
+
+.alarm, .favorite {
+    font-size: 10px;
+}
+
+.fa-star, .fa-clock {
+    font-size: 22px;
+}
+
+footer {
+    position: fixed;
+    background-color: #f0eeee;
+}
