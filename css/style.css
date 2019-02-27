@@ -6,7 +6,7 @@ body {
     font-family: sans-serif;
     max-width: 375px;
     max-height: 667px;
-    font-family: "SF Display", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 header {
@@ -21,7 +21,6 @@ header {
 
 nav {
     color: black;
-    height: 70px;
     background-color: #F8F8F8;
 }
 
@@ -42,7 +41,7 @@ nav {
 .back {
     font-size: 17px;
     vertical-align: middle;
-    font-family: "SF Display", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
     font-weight: lighter;
 }
 
@@ -60,7 +59,7 @@ nav {
 .container {
     border-left-color: transparent;
     border-right-color: transparent;
-    margin-top: 45px;
+    padding-top: 95px;
     background-color: #F8F8F8;
     overflow: scroll;
     max-height: 502px;
@@ -103,7 +102,7 @@ nav {
 }
 
 .destination-frequency {
-    padding: 15px;
+    padding: 15px 0px 15px 15px;
     line-height: 120%;
 }
 
@@ -123,6 +122,17 @@ nav {
     padding: 10px;
     font-size: 17px;
     text-align: right;
+}
+
+.fa-angle-right {
+    color: #007AFF;
+}
+
+hr {
+    width: 92%;
+    color: #BCBBC1;
+    margin: 0;
+    margin-left: 15px;
 }
 
 .button {
